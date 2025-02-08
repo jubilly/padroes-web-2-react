@@ -15,6 +15,9 @@
         "version": "detect"
       }
     },
+    "env": {
+      "browser": true
+    },
     "plugins": ["react", "jsx"],
     "extends": [
       "eslint:recommended",
@@ -22,6 +25,9 @@
       "plugin:react/recommended"
     ],
     "rules": {
-      "semi": ["error", "always"]
+      "semi": ["error", "always"],
+      "react/prop-types": "off",
+      "no-console": "off",
+      "no-unused-vars": "warn"
     }
   }

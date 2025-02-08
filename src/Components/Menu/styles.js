@@ -22,6 +22,10 @@ const Option = styled.li`
     cursor: pointer;
     min-width: 120px;
     text-transform: uppercase;
+
+    p {
+        margin: 21px 0;
+    }
 `;
 
 export { MenuContainer, Options, Option };

@@ -6,6 +6,7 @@ const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     padding: 0 10px;
+    flex-wrap: wrap;
 `;
 
 export { HeaderContainer };

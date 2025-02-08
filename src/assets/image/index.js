@@ -1,17 +1,9 @@
 import logo from './logo.svg';
-import livro from './livro.png';
-import livro2 from './livro2.jpeg';
-import livro3 from './livro3.png';
-import livro4 from './livro4.png';
-import perfil from './perfil.svg';
-import sacola from './sacola.svg';
+import book from './livro.png';
+import book2 from './livro2.jpeg';
+import book3 from './livro3.png';
+import book4 from './livro4.png';
+import profile from './perfil.svg';
+import bag from './sacola.svg';
 
-export { 
-    logo,
-    livro, 
-    livro2,
-    livro3,
-    livro4,
-    perfil,
-    sacola
-};
+export { logo, book, book2, book3, book4, profile, bag };

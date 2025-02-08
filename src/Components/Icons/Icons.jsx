@@ -1,9 +1,9 @@
 import React from 'react';
-import { perfil, sacola } from '../../assets/image';
+import { profile, bag } from '../../assets/image';
 import { IconsContainer, IconImage } from './styles';
 
 function Icons() {
-    const icons = [perfil, sacola];
+    const icons = [profile, bag];
 
     return (
         <IconsContainer>

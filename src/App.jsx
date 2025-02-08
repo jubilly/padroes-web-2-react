@@ -1,11 +1,22 @@
 import React from 'react';
-import { Header } from './Components';
+import { CartRecommendation, Header, LastReleases, Search } from './Components';
 import AppContainer from './styles/app.style';
+import { book3 } from './assets/image';
 
 function App() {
     return (
-        <AppContainer className="app">
+        <AppContainer>
             <Header />
+            <Search />
+            <LastReleases />
+            <CartRecommendation
+                title={'Talvez você se interesse por'}
+                subtitle={'Angular 11'}
+                description={
+                    'Construindo uma aplicação com a plataforma Google'
+                }
+                imgSrc={book3}
+            />
         </AppContainer>
     );
 }
