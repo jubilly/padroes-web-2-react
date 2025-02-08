@@ -1,14 +1,14 @@
-import './styles.css';
 import React from 'react';
 import { logo } from '../../assets/image';
+import { LogoContainer, ImageLogo } from './styles';
 
 export default function Logo() {
     return (
-        <div className="logo">
-            <img className="image" src={logo} />
+        <LogoContainer>
+            <ImageLogo src={logo} />
             <p>
                 <strong>Amanda Prates</strong> <i>Store</i>
             </p>
-        </div>
+        </LogoContainer>
     );
 }

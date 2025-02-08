@@ -5,6 +5,9 @@
       "sourceType": "module",
       "ecmaFeatures": {
         "jsx": true
+      },
+      "babelOptions": {
+        "presets": ["@babel/preset-react"]
       }
     },
     "settings": {
@@ -12,10 +15,11 @@
         "version": "detect"
       }
     },
-    "plugins": ["react", "react-hooks", "jsx"],
+    "plugins": ["react", "jsx"],
     "extends": [
       "eslint:recommended",
-      "plugin:prettier/recommended"
+      // "plugin:prettier/recommended",
+      "plugin:react/recommended"
     ],
     "rules": {
       "semi": ["error", "always"]

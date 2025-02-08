@@ -1,15 +1,17 @@
-.menu {
+import styled from 'styled-components';
+
+const MenuContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-}
+`;
 
-.options {
+const Options = styled.ul`
     display: flex;
-}
+`;
 
-.option {
+const Option = styled.li`
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -20,9 +22,6 @@
     cursor: pointer;
     min-width: 120px;
     text-transform: uppercase;
-}
+`;
 
-.icon {
-    width: 30px;
-    height: 30px;
-}
+export { MenuContainer, Options, Option };

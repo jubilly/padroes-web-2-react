@@ -1,13 +1,13 @@
+import React from 'react';
+import { HeaderContainer } from './styles';
 import { Icons, Logo, Menu } from '../index';
-
-import './styles.css';
 
 export default function Header() {
     return (
-        <header className="header">
+        <HeaderContainer>
             <Logo />
             <Menu />
             <Icons />
-        </header>
+        </HeaderContainer>
     );
 }

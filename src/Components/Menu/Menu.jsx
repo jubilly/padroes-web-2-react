@@ -1,20 +1,21 @@
 import React from 'react';
-import './styles.css';
+import './styles.js';
+import { MenuContainer, Options, Option } from './styles.js';
 
 export default function Menu() {
     const options = ['Categorias', 'Minha estante', 'Favoritos', 'Sobre Nós'];
 
     return (
-        <div className="menu">
-            <ul className="options">
+        <MenuContainer>
+            <Options>
                 {options.map((option, index) => {
                     return (
-                        <li key={index} className="option">
+                        <Option key={index}>
                             <p>{option}</p>
-                        </li>
+                        </Option>
                     );
                 })}
-            </ul>
-        </div>
+            </Options>
+        </MenuContainer>
     );
 }
