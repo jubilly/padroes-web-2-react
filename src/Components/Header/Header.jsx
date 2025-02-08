@@ -8,7 +8,6 @@ export default function Header() {
             <Logo />
             <Menu />
             <Icons />
-            testes
         </header>
     );
 }
